@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+html{
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#navbar{
+    height: 60px;
+    display: flex;
+    background-color: #f5f5dc; /* Refined beige */
+    padding: 0 20px; /* Adjusted padding */
+    justify-content: space-between;
+    align-items: center; /* Vertically center content */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    overflow: hidden;
+}
+
+
+
+
+  #navbar a {
+ 
+    text-decoration: none;
+  }
+
+
+i{
+    color: black;
+    font-size: 30px;
+    list-style: none;
+}
+
+.left-nav-item i{
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: silver;
+}
+
+.left-nav-item a{
+   
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px; 
+}
+
+
+.body {
+    padding: 20px;
+    margin-top: 60px;
+    
+}
+span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.body-part{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    mix-blend-mode: color-burn;
+    
+}
+
+.body-left{
+    width: 80%;
+    
+}
+
+.body-right{
+    width: 80%;
+    font-size: 24px;
+    margin-left: -30%;
+    /* opacity: .6; */
+    color:#16515C;
+}
+
+.body-left img{
+    width: 40%;
+    height: 100%;
+    margin-left: 3%;
+    
+}
+
+.body-right {
+    /* text-align: center; */
+    height: 20px;
+    margin-top: 35px;
+    text-align: start;
+}
+
+.body-part p{
+    margin-top: -20px;
+    font-size:1.5em;
+    font-weight: bold;
+    background-color: rgb(155, 155, 188);
+    width:52%;
+    padding: 10px;
+    color: black;
+}
+
+
+
+
+footer {
+   
+    background-color: #333;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 10px;
+    cursor: pointer;
+   padding-top: 30px;
+   padding-left: 25px;
+
+
+}
+
+footer p{
+    color: #fff;
+    margin-left: 8px;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    /* font-size: 10px; */
+}
+
+.last p{
+
+    padding-top: 3%;
+    /* background-color: transparent; */
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern css using flexbox</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main">
+
+
+        <div class="left-part">
+            <div class="nav-bar">
+                <div class="img"><img src="data:image/jpeg;base64,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" alt=""></div>
+                <div class="left-nav-item">
+                    <a href="index.html">Home</a>
+                    <a href="about.html" target="_blank">About</a>
+                    <a
+                        href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FFruits_Veggies&psig=AOvVaw0OKmfSXdZbXoXdhxbkVXPo&ust=1712574743091000&source=images&cd=vfe&opi=89978449&ved=0CAcQrpoMahcKEwigzLve_K-FAxUAAAAAHQAAAAAQBA"><i
+                            class="ri-twitter-x-line"></i></a>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <h1>Hello,</h1>
+                <p>Fruit, the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Thus,
+                    apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their
+                    shells) acorns and almonds, are all technically fruits.</p>
+                <a href="https://www.britannica.com/science/fruit-plant-reproductive-body#:~:text=fruit%2C%20the%20fleshy%20or%20dry,almonds%2C%20are%20all%20technically%20fruits."
+                    target="_blank">Visit here</a>
+            </div>
+        </div>
+
+
+
+        <div class="right-part">
+            <div class="right-top">
+                <div class="right-top-left"></div>
+                <div class="right-top-right"></div>
+            </div>
+            <div class="right-buttom"></div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <p>Created by :- Payel Dutta</p>
+            <p>Email: payeldutta1145@gmail.com</p>
+            <p>Address : &nbspAshrampara, Bankura, West Bengal, 722101</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Terms and Conditions | Privacy Policy</p>
+            <p>Made with HTML & CSS</p>
+        </div>
+
+        <div class="last">
+            <center>
+                <p>Copyright © 2024 &nbspABS ACADEMY . All rights reserved.</p>
+            </center>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
